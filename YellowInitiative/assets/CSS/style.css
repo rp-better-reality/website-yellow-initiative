@@ -1,0 +1,188 @@
+body{
+    margin:0;
+}
+
+
+
+
+
+/*Контейнер*/
+.container{
+   font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    
+    width:100%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.container_text{
+    color: #fff;
+   max-width: 1400px;
+    padding-top:20px;
+    width: 200%;
+    position: absolute;
+    top:0px;
+    left:0;
+    right:0;
+    
+}
+
+
+.text_inner{
+    font-family: "Dosis", sans-serif;
+    padding-top:290px;
+    line-height: .9;
+    font-size: 11px;
+  
+    padding-left: 300px;
+    
+   
+}
+left_right{
+     display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*обнуление margin*/
+h1,h2,h3,h4,h5,h6{
+    
+    margin: 0;    
+    
+}
+
+/*интро*/
+
+.intro_inner{
+    
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.intro{
+    
+    width: 100%;
+      
+    height: 100vh;
+   
+    background:url('Images/Intro.jpg');
+    background-size: cover;
+}
+.intro_title{
+   font-family: "Bebas Neue", sans-serif;
+    left:1000px;
+    font-size:80px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align:  left;
+    line-height: 1;
+    padding-left: 100px;
+
+       
+}
+.Intro_text_title{
+     font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #fff;
+   
+    
+}
+.tt_in{
+  margin-left: 1px;
+    
+}
+    
+
+/*стилизация шапки*/
+
+
+.header{
+    padding-top:20px;
+    width: 100%;
+    max-width: 1400px;
+    position: absolute;
+    top:0px;
+    left:0;
+    right:0;
+    z-index: 1000;
+   
+}
+header_inner{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_logo{
+    padding-left:100px;
+    font-weight:bold;
+    font-size: 60px;
+    font-family: "Montserrat", sans-serif;
+    color:#fff;
+    
+    
+}
+/*навигация*/
+.nav{
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.nav_link{
+    display: inline-block;
+    color:#fff;
+    vertical-align: top;
+    margin: 0 18px;
+    text-decoration: none;
+    transition: color .3s ;
+    position:relative;
+}
+
+.nav_link:hover{
+    color:#BC8F8F;
+    opacity: 0.7;    
+    
+}
+.tt_after:after{
+    content: '';
+    display:block;
+    width: 420px;
+    height: 4px;
+    left:990px;
+    background-color: #fff;
+    position: absolute;
+    top:100%;
+    z-index: 1;
+    margin-top: 19px;
+    background-color:#fff06e;
+}
+.tt_in{
+    line-height: .8;
+    font-size: 17px;
+    font-family: "Dosis", sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
