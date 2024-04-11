@@ -1,0 +1,21 @@
+name: Deploy Website
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Upload to Azure Storage
+        uses: azure/CLI@v1
+        with:
+          inlineScript: |
+            az storage blob upload-batch --source ./web/assets --destination '$web' --overwrite
+        env:
+            AZURE_STORAGE_CONNECTION_STRING: ${{ secrets.AZURE_STORAGE_ACCOUNT_CONNECTION_STRING }}
