@@ -1,85 +1,220 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      font-family: Arial, sans-serif;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      text-align: left;
+      padding: 8px;
+    }
+    th {
+      background-color: #f2f2f2;
+      font-weight: bold;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+  </style>
 
-    <title>BetterRealit8y</title>
-    <link rel="stylesheet" href="CSS/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Workbench&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Workbench&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Workbench&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Workbench&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
-</head>
-<body>
+  <!-- Таблица для diese -->
+  <h3>Таблица склонения указательных местоимений diese с примерами:</h3>
+  <table>
+    <tr>
+      <th>Падеж</th>
+      <th>Описание на русском</th>
+      <th>Мужской род</th>
+      <th>Женский род</th>
+      <th>Средний род</th>
+      <th>Множ. число</th>
+      <th>Примеры</th>
+    </tr>
+    <tr>
+      <td>Номинатив</td>
+      <td>Кто? Что?</td>
+      <td>dieser</td>
+      <td>diese</td>
+      <td>dieses</td>
+      <td>diese</td>
+      <td>Dieser Mann ist alt. (Этот мужчина стар.)<br>Diese Frau ist schön. (Эта женщина красива.)<br>Dieses Kind ist klein. (Этот ребенок мал.)<br>Diese Hunde sind laut. (Эти собаки громкие.)</td>
+    </tr>
+    <tr>
+      <td>Аккузатив</td>
+      <td>Кого? Что?</td>
+      <td>diesen</td>
+      <td>diese</td>
+      <td>dieses</td>
+      <td>diese</td>
+      <td>Ich sehe diesen Mann. (Я вижу этого мужчину.)<br>Ich nehme diese Tasche. (Я беру эту сумку.)<br>Er trifft dieses Mädchen. (Он встречает эту девочку.)<br>Wir kaufen diese Äpfel. (Мы покупаем эти яблоки.)</td>
+    </tr>
+    <tr>
+      <td>Дательный</td>
+      <td>Кому? Чему?</td>
+      <td>diesem</td>
+      <td>dieser</td>
+      <td>diesem</td>
+      <td>diesen</td>
+      <td>Ich gebe diesem Mann das Buch. (Я даю этому мужчине книгу.)<br>Ich schenke dieser Frau Blumen. (Я дарю этой женщине цветы.)<br>Er gibt diesem Kind einen Keks. (Он даёт этому ребёнку печенье.)<br>Wir zeigen diesen Kindern Fotos. (Мы показываем этим детям фотографии.)</td>
+    </tr>
+    <tr>
+      <td>Генитив</td>
+      <td>Кого? Чьего? Чего?</td>
+      <td>dieses</td>
+      <td>dieser</td>
+      <td>dieses</td>
+      <td>dieser</td>
+      <td>Die Farbe dieses Autos ist rot. (Цвет этого автомобиля красный.)<br>Der Geruch dieser Blume ist süß. (Запах этого цветка сладкий.)<br>Die Fenster dieses Hauses sind groß. (Окна этого дома большие.)<br>Die Größe dieser Schuhe ist 42. (Размер этих ботинок 42.)</td>
+    </tr>
+  </table>
 
-<header class="header">
-    <div class="container">
-        <header_inner>
-            <div class="header_logo">
-               RP
-            </div>
-            <nav class="nav">
-                <a class="nav_link" href="about.html">About</a>
+  <!-- Таблица для meinen -->
+  <h3>Таблица склонения притяжательных местоимений mein с примерами:</h3>
+  <table>
+    <tr>
+      <th>Падеж</th>
+      <th>Описание на русском</th>
+      <th>Мужской род</th>
+      <th>Женский род</th>
+      <th>Средний род</th>
+      <th>Множ. число</th>
+      <th>Примеры</th>
+    </tr>
+    <tr>
+      <td>Номинатив</td>
+      <td>Кто? Что?</td>
+      <td>mein</td>
+      <td>meine</td>
+      <td>mein</td>
+      <td>meine</td>
+      <td>Mein Bruder ist groß. (Мой брат высокий.)<br>Meine Mutter ist klug. (Моя мать умная.)<br>Mein Haus ist alt. (Мой дом старый.)<br>Meine Bücher sind neu. (Мои книги новые.)</td>
+    </tr>
+    <tr>
+      <td>Аккузатив</td>
+      <td>Кого? Что?</td>
+      <td>meinen</td>
+      <td>meine</td>
+      <td>mein</td>
+      <td>meine</td>
+      <td>Ich sehe meinen Freund. (Я вижу своего друга.)<br>Er besucht meine Schwester. (Он посещает мою сестру.)<br>Wir malen mein Zimmer. (Мы красим мою комнату.)<br>Er liest meine Briefe. (Он читает мои письма.)</td>
+    </tr>
+    <tr>
+      <td>Дательный</td>
+      <td>Кому? Чему?</td>
+      <td>meinem</td>
+      <td>meiner</td>
+      <td>meinem</td>
+      <td>meinen</td>
+      <td>Ich gebe meinem Vater das Geld. (Я даю деньги моему отцу.)<br>Wir helfen meiner Oma.
+  (Мы помогаем моей бабушке.)<br>Er spricht mit meinem Bruder. (Он разговаривает с моим братом.)<br>Sie antwortet meinen Eltern. (Она отвечает моим родителям.)</td>
+    </tr>
+    <tr>
+      <td>Генитив</td>
+      <td>Кого? Чьего? Чего?</td>
+      <td>meines</td>
+      <td>meiner</td>
+      <td>meines</td>
+      <td>meiner</td>
+      <td>Der Hund meines Nachbarn ist laut. (Собака моего соседа громкая.)<br>Die Geduld meiner Mutter ist bewundernswert. (Терпение моей матери восхитительно.)<br>Das Dach meines Hauses ist grün. (Крыша моего дома зелёная.)<br>Die Farben meiner Kleider sind hell. (Цвета моих платьев яркие.)</td>
+    </tr>
+  </table>
 
-                <a class="nav_link"
-                href="contact.html">Contact</a>
+  <!-- Таблица для deinen -->
+  <h3>Таблица склонения притяжательных местоимений dein с примерами:</h3>
+  <table>
+    <tr>
+      <th>Падеж</th>
+      <th>Описание на русском</th>
+      <th>Мужской род</th>
+      <th>Женский род</th>
+      <th>Средний род</th>
+      <th>Множ. число</th>
+      <th>Примеры</th>
+    </tr>
+    <tr>
+      <td>Номинатив</td>
+      <td>Кто? Что?</td>
+      <td>dein</td>
+      <td>deine</td>
+      <td>dein</td>
+      <td>deine</td>
+      <td>Dein Bruder ist sportlich. (Твой брат спортивный.)<br>Deine Tante ist nett. (Твоя тетя милая.)<br>Dein Auto ist schnell. (Твоя машина быстрая.)<br>Deine Stifte sind bunt. (Твои карандаши разноцветные.)</td>
+    </tr>
+    <tr>
+      <td>Аккузатив</td>
+      <td>Кого? Что?</td>
+      <td>deinen</td>
+      <td>deine</td>
+      <td>dein</td>
+      <td>deine</td>
+      <td>Ich rufe deinen Onkel an. (Я звоню твоему дяде.)<br>Er nimmt deine Hand. (Он берет твою руку.)<br>Sie öffnet dein Fenster. (Она открывает твое окно.)<br>Wir essen deine Kekse. (Мы едим твои печенья.)</td>
+    </tr>
+    <tr>
+      <td>Дательный</td>
+      <td>Кому? Чему?</td>
+      <td>deinem</td>
+      <td>deiner</td>
+      <td>deinem</td>
+      <td>deinen</td>
+      <td>Ich schicke deinem Bruder eine Nachricht. (Я отправляю сообщение твоему брату.)<br>Er gibt deiner Mutter einen Kuss. (Он дает твоей матери поцелуй.)<br>Wir helfen deinem Freund. (Мы помогаем твоему другу.)<br>Sie erklärt deinen Kindern die Regeln. (Она объясняет правила твоим детям.)</td>
+    </tr>
+    <tr>
+      <td>Генитив</td>
+      <td>Кого? Чьего? Чего?</td>
+      <td>deines</td>
+      <td>deiner</td>
+      <td>deines</td>
+      <td>deiner</td>
+      <td>Das Lachen deines Vaters ist ansteckend. (Смех твоего отца заразителен.)<br>Die Stimme deiner Schwester ist schön. (Голос твоей сестры красивый.)<br>Die Lage deines Hauses ist perfekt. (Расположение твоего дома идеальное.)<br>Die Schrift deiner Briefe ist klein. (Почерк твоих писем маленький.)</td>
+    </tr>
+  </table>
 
-                <a class="nav_link" href="#">Service</a>
-            </nav>
-        </header_inner>
-
-</div>
-      </header>
-       <div class="intro">
-        <div class="intro_text">
-
-               <div class="container_text">
-                     <left_right>
-                      <div class="intro_inner">
-                 <h1 class="intro_title">                      <br> Лучшая <br> Реальность</h1>
-               </div>
-
-
-
-
-
-
-
-                       <div class="text_inner">
-                       <div class="tt_after">
-<div class="Intro_text_title">Актуальность</div>
-      <h1 class="tt_in">
-
-<br>Создание инклюзивной образовательной среды<br> <br>является ключевым аспектом современного обучения,<br> <br>особенно для детей с аутизмом. Технологии ИИ, <br><br>deepfake и дополненной реальности (augmented reality,<br> <br>AR) предлагают новые подходы к адаптации <br><br>образовательного процесса, делая его более доступным и <br>интерактивным для учащихся с особыми образовательными <br>потребностями.</h1>
-                      </div>
-                       </div>
-                            </left_right>
-
-                             </div>
-
-           </div>
-
-
-               </div>
-
-
-
-
-
-
-</body>
-</html>
+  <!-- Таблица для ein -->
+  <h3>Таблица склонения неопределенных местоимений ein с примерами:</h3>
+  <table>
+    <tr>
+      <th>Падеж</th>
+      <th>Описание на русском</th>
+      <th>Мужской род</th>
+      <th>Женский род</th>
+      <th>Средний род</th>
+      <th>Множ. число</th>
+      <th>Примеры</th>
+    </tr>
+    <tr>
+      <td>Номинатив</td>
+      <td>Кто? Что?</td>
+      <td>ein</td>
+      <td>eine</td>
+      <td>ein</td>
+      <td>-</td>
+      <td>Ein Mann geht. (Один мужчина идет.)<br>Eine Frau lacht. (Одна женщина смеется.)<br>Ein Kind spielt. (Один ребенок играет.)</td>
+    </tr>
+    <tr>
+      <td>Аккузатив</td>
+      <td>Кого? Что?</td>
+      <td>einen</td>
+      <td>eine</td>
+      <td>ein</td>
+      <td>-</td>
+      <td>Ich sehe einen Hund. (Я вижу одну собаку.)<br>Er kauft eine Blume. (Он покупает один цветок.)<br>Sie findet ein Buch. (Она находит одну книгу.)</td>
+    </tr>
+    <tr>
+      <td>Дательный</td>
+      <td>Кому? Чему?</td>
+      <td>einem</td>
+      <td>einer</td>
+      <td>einem</td>
+      <td>-</td>
+      <td>Ich gebe einem Freund Geld. (Я даю деньги одному другу.)<br>Er schenkt einer Kollegin Schokolade. (Он дарит шоколад одной коллеге.)<br>Wir helfen einem Tier. (Мы помогаем одному животному.)</td>
+    </tr>
+    <tr>
+      <td>Генитив</td>
+      <td>Кого? Чьего? Чего?</td>
+      <td>eines</td>
+      <td>einer</td>
+      <td>eines</td>
+      <td>-</td>
+      <td>Die Meinung eines Experten ist wichtig. (Мнение одного эксперта важно.)<br>Die Arbeit einer Lehrerin ist anstrengend. (Работа одной учительницы утомительна.)<br>Das Wachstum eines Baumes dauert Jahre. (Рост одного дерева занимает годы.)</td>
+    </tr>
+  </table>
